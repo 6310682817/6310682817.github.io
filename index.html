@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nattawut Pichaikan</title>
+
+    <style media="screen">
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        align-items: center;
+        justify-content: center;
+        background-color: #ade5f9;
+        min-height: 100vh;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      /* Utilities */
+      .card img {
+        border-radius: 50%;
+      }
+
+      body,
+      .card {
+        display: flex;
+      }
+
+      .card {
+        padding: 2.5rem 2rem;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        max-width: 500px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+        margin: 1rem;
+        position: relative;
+        transform-style: preserve-3d;
+        overflow: hidden;
+      }
+
+      .card img {
+        width: 8rem;
+        box-shadow: 0 0 0 5px rgb(255, 255, 255);
+      }
+
+      .infos {
+        margin-left: 1.2rem;
+      }
+
+      .name {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+      }
+
+      .text {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      @media screen and (max-width: 400px) {
+        .card {
+          display: block;
+        }
+
+        .card img {
+          width: 80rem;
+          box-shadow: 0 0 0 5px rgb(255, 255, 255);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="img">
+        <img
+          src="https://user-images.githubusercontent.com/70094208/187034839-c364d220-042b-4ed1-9927-8021540fe433.jpg"
+        />
+      </div>
+      <div class="infos">
+        <div class="name">
+          <h2>Nattawut Pichaikan</h2>
+        </div>
+        <div class="text">
+          <p>Student Id: 6310682817</p>
+          <p>Faculty: Computer Engineering</p>
+          <p>Email: 6310682817@student.tu.ac.th</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
